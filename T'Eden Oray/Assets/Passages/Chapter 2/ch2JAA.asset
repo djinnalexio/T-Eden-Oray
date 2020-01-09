@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2JAA
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "You try to break into a sprint. The noise behind you is getting
+    louder. Something is definitely chasing you! And catching up. You look behind
+    you but cannot make out what is following you. You then feel yourself falling
+    forward onto the ground. You just tripped at the worst possible moment!\r\n\r\nYou
+    try to get back up. You can't. Something is pressing on your body. You hear the
+    sound again. And suddenly, the back of your neck is ripped open. You cry out of
+    pain and despair.\r\n\r\n\"It hurts...sorry........#siblinghalfname#......\"\r\n\r\n<align=\"center\"><b><i>Hold
+    on! That's not how it went, is it?\r\nLet's read this part <color=\"red\">A</color>gain!</i>\r</b></align>"
+  NextPassages:
+  - {fileID: 11400000, guid: 00a23feb111dd684fb0fa58793ad45ba, type: 2}

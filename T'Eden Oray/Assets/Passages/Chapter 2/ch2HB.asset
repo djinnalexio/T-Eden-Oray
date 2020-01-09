@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2HB
+  m_EditorClassIdentifier: 
+  NeutralPassage: "The floor is littered with broken branches, twigs, and battered
+    leaves. You cannot find anything that could be useful.\r\n\r\nAnything is better
+    than nothing. Maybe a stick could serve as a walking cane or a weapon if need
+    be. \r\n\r\nYou...\r\n\r\n... <color=\"red\">S</color>tart walking towards the
+    altar.\r\n... <color=\"red\">P</color>ick a sturdy one."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: afe332961d5bafb47b22e75a51e12cbd, type: 2}

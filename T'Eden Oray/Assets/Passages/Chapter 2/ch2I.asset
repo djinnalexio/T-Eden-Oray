@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2I
+  m_EditorClassIdentifier: 
+  NeutralPassage: "You enter the forest heading towards the ruins. You keep walking
+    forward, but eventually, the sun sets completely. It is now night time.\r\n\r\nYou
+    <color=\"red\">A</color>dvance through the woods."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 07ee30b1f3a6975418884172715d9013, type: 2}
+  - {fileID: 11400000, guid: e54f50421956ee44fa06ef2b01b8bf23, type: 2}
+  - {fileID: 11400000, guid: ca4756fd87632e24bb87f32edd423a5f, type: 2}
+  - {fileID: 11400000, guid: abafc4f3a98faa942bb2d4e281201e11, type: 2}

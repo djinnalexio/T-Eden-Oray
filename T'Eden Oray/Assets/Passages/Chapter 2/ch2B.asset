@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2B
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "After striding across the forest while following the cliff wall,
+    you eventually look down at your feet and find an area littered with giant leaves
+    and branches. You seem to have reached your destination. You look up and find
+    lengths of ropes tangled in broken branches, and bent leaves. You are now sure
+    of it. This is where your #sibling# fell!\r\n\r\nYou...\r\n\r\n... <color=\"red\">O</color>bserve
+    the trees above.\r\n... <color=\"red\">I</color>nspect the rocky wall.\r\n...
+    <color=\"red\">L</color>ook down the ground again."
+  NextPassages:
+  - {fileID: 11400000, guid: fd046048d85482e46985e4ba9eec5d94, type: 2}
+  - {fileID: 11400000, guid: d800000eb42d3834a8f95bf9b331e7c6, type: 2}
+  - {fileID: 11400000, guid: 761a2064f3c0fa84cbf6406c2597339c, type: 2}

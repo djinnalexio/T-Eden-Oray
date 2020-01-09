@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2A
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "After an hour of hiking down the rocky road, you finally reach
+    ground level in a clearing. Now that you are closer, you can admire the scenery:
+    Healthy trees bearing fruits you cannot identify, pretty flowers decorating the
+    lawn of the clearing, and tiny birds going on with their day in the trees, creating
+    the calming tune of birds chirps and leaf-ruffling.\n\nYou point out that though
+    the sky is still blue, the sun is heading back to the horizon. It will set soon.
+    You have no time to waste! You must find your #sibling#!\r\n\r\nYou <color=\"red\">W</color>alk
+    towards where you think #they# fell."
+  NextPassages:
+  - {fileID: 11400000, guid: 035080f5bd8bd744498db1f7ef522235, type: 2}

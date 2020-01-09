@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch1E
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "After looking around, you find a steep but walkable passage going
+    down the cliff. You look down. That passage leads all the way down to the valley!
+    It seems luck finally is your side. You may not know how to get back to your camp,
+    but you are still determined to rescue your #relation#.\r\n\r\nYou <color=\"red\">S</color>tart
+    walking down the path."
+  NextPassages:
+  - {fileID: 11400000, guid: 00a23feb111dd684fb0fa58793ad45ba, type: 2}

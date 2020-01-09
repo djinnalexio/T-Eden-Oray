@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3B
+  m_EditorClassIdentifier: 
+  NeutralPassage: "The clearing is delimited by the trees around forming a perfect
+    circle that you estimate to be tens of yards across. The area has been overtaken
+    by plants and vines. Underneath all the vegetation, you can identify ruins of
+    pillars and stoned paths circling the clearing.\r\n \r\n What draws your attention
+    next is the altar itself. It is a pyramid-like structure easily reaching three
+    or four stories tall. You can see the stairs in front of you, leading to the top
+    of the altar. You see something moving there!\r\n \r\n \r\n \r\n You...\r\n \r\n
+    ... <color=\"red\">A</color>ssess your surroundings.\r\n ... <color=\"red\">I</color>nspect
+    the base of the altar.\r\n ... <color=\"red\">L</color>ook at the top of the altar."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 9449d72eea9e83d4c9b5fda3a3ba09e7, type: 2}
+  - {fileID: 11400000, guid: beabd36dd7f31514faeec8654fd6da71, type: 2}
+  - {fileID: 11400000, guid: 192eaf8853f70284db71d00069f1c6cf, type: 2}

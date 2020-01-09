@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2JB
+  m_EditorClassIdentifier: 
+  NeutralPassage: "The pretty glow of the moon is barely enough to illuminate your
+    path. You can at least rely on your walking stick to tell you where you can walk
+    easily. As you advance through the forest, you notice that it is unnaturally quiet.\n\r\n**ROARRRRRRRRRR**\r\n\r\nYou
+    spoke too soon! You turn around just in time to hit something right in the face
+    with your stick! It is too dark to make it out.\r\nBefore you even have the time
+    to think about your next move, the beast jumps at you again, this time too fast
+    for you to deflect. You fall backward and feel its fangs digging into your throat.\r\n\"ARGHHhhhh.......\"\r\n\r\n<align=\"center\"><b><i>Hold
+    on! That's not how it went, is it?\r\nLet's read this part <color=\"red\">A</color>gain!</i>\r</b></align>"
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 00a23feb111dd684fb0fa58793ad45ba, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2JA
+  m_EditorClassIdentifier: 
+  NeutralPassage: "The soft glow of the crescent moon, as beautiful as it is, is far
+    from enough to illuminate your path or surroundings shadows.\r\n\r\nYou start
+    walking faster, praying that you are still moving in the right direction. The
+    forest is unnaturally dead quiet. You suddenly become self-aware of your situation:
+    you are alone, in the forest, in the middle of the night, with no source of light,
+    and nothing to protect yourself.\r\n\r\n**Crack**\r\nYou hear something moving
+    near you!\r\n\r\nYou...\r\n\n... <color=\"red\">B</color>reathe and calm down.\r\n...
+    <color=\"red\">P</color>anic and run for your life."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 20be21aaaa4c81c4e803270aac6432b1, type: 2}
+  - {fileID: 11400000, guid: c24fed9fe1c9eb04aa2d56a5f2e350c3, type: 2}

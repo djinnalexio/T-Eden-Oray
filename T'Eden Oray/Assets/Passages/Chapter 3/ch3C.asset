@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3C
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "You climb the stairs of the altar. As you get closer to the top,
+    you can make out a form waving at you! You start running towards the top.\r\n\r\nYou
+    have finally found your #sibling#!\r\n\n\"#sibling Name#! You're alive!\"\r\n\nYou
+    bear-hug each other and enjoy the relief of knowing that you are both safe and
+    reunited. You stay in this position for a while, trying to process everything
+    that has happened so far.\r\n\r\nOnce the high of emotions settles, #sibling Name#
+    <color=\"red\">T</color>ells you what happened to #them# so far."
+  NextPassages:
+  - {fileID: 11400000, guid: b851e70ba08fe4b448490b048e9b17ef, type: 2}
+  - {fileID: 11400000, guid: 742634018151c6f43b4f37bd67668f4b, type: 2}

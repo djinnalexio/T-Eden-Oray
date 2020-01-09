@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3IA
+  m_EditorClassIdentifier: 
+  NeutralPassage: "You decide to throw the diamond as far as you can. The snake hisses
+    loudly! It looks like all you accomplished was to make it really angry.\r\n\r\nYou
+    are out of ideas and try to run toward the stairs. Just when you think you made
+    it to the stairs, the serpent dives towards you faster than you can see and swallows
+    both of you whole!\r\n\r\n\"HAAAAAAaaaa...!\"\r\n\r\n<align=\"center\"><b><i>Hold
+    on! That's not how it went, is it?\r\nLet's read this part <color=\"red\">A</color>gain!</i>\r</b></align>\n"
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: e950cfd101451b247a193c0fe090410f, type: 2}

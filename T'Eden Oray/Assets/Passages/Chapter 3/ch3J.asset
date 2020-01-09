@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3J
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "#takeDiamond#. You arm yourself with courage and move in front
+    of the snake. The snake is lowering its head to get at your level. The diamond
+    keeps getting hotter and hotter.\r\n\r\nYou are now standing a foot away from
+    the snake's nose. The diamond is almost burning your hands! The snake is observing
+    you.\r\n\r\nYou ...\r\n\r\n... <color=\"red\">T</color>hrow the diamond away.\r\n...
+    <color=\"red\">P</color>lace the diamond on its forehead.\r\n... <color=\"red\">D</color>ecide
+    to attack with the diamond.\r\n... <color=\"red\">F</color>all back."
+  NextPassages:
+  - {fileID: 11400000, guid: db3e6f00558d19b469e53cb0c0d17da4, type: 2}
+  - {fileID: 11400000, guid: 59feab5e492efd540baa8f6401b7fc4b, type: 2}
+  - {fileID: 11400000, guid: bbd021740f3d2334382f98f1dd48b2f6, type: 2}
+  - {fileID: 11400000, guid: dd8c2ab3a15d89d44a2cbbd68e320989, type: 2}

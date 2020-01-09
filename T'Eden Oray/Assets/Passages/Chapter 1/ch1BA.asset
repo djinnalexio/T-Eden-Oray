@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch1BA
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "As you enter the tunnel, you suddenly become apprehensive. The
+    cave is dark, cold, and humid. On your way to the valley, not only did you and
+    your #sibling# have to backtrack your steps several times due to the confusing
+    layout of the underground, but you also recall several close calls with bats,
+    a bear, and several other animals you could not even see properly. The only reason
+    you got so far in the first place is that #DescribeSibling#\n\n#They# isn't anymore...\n\nYou...\n\n...
+    <color=\"red\">G</color>ive up and exit the cave. You need to stay alive if you
+    want to accomplish anything.\r\n\n... <color=\"red\">P</color>ush forward. You're
+    the only one who can call for help."
+  NextPassages:
+  - {fileID: 11400000, guid: 2354f9ea96f18b54898bcff09430fb01, type: 2}
+  - {fileID: 11400000, guid: 9a158e16b1dab754d851ad0d0abd894b, type: 2}
+  - {fileID: 11400000, guid: d415ea6c275fe8b41b5e6f233e3208cf, type: 2}
+  - {fileID: 11400000, guid: 1b95e8b5b39d4694295bdb784d7f20df, type: 2}

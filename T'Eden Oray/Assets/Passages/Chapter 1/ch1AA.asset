@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch1AA
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "You can still hear the chilling scream of despair as your #relation#
+    presumably fell to #their# death. You start panicking and wondering what you should
+    do when you remember the breathing exercises your parents taught you.\r\n\nBreathe
+    in, breathe out. After a minute, you collect yourself. Your #sibling# just fell
+    from a few tens of feet, but you did not see #them# actually crash on the floor.
+    As childish and illogical as this reasoning is, you desperately want to stay optimistic.\r\n\nYou
+    want to find your #sibling# as soon as possible, but being reckless about it will
+    not help.\r\n\r\nYou <color=\"red\">T</color>hink about what to do."
+  NextPassages:
+  - {fileID: 11400000, guid: e6b948fcab4ca4743b87d5467185120f, type: 2}

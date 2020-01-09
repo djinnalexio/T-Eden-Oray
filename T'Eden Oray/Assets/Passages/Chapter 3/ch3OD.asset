@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3OD
+  m_EditorClassIdentifier: 
+  NeutralPassage: "You make eye contact with your sister. She nods. You start screaming
+    at the snake. It hisses loudly. You try to run away and the beast brings its head
+    hovering over you. The snake is about to strike! At that moment, your sister,
+    hunting knife in hand, slowly gets closer.\r\nYou keep the snake's attention on
+    you to give your sister an opening to strike. You give the signal.\r\n\n3.        2.
+    \      1.       \"<color=\"red\">N</color>OW!\""
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 5c68d3c358f64314493704189b5d1ff6, type: 2}
+  - {fileID: 11400000, guid: 3119ef88461e2954ebd775fd10fdd93d, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2HA
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "The sky is shifting to an orange hue. You need to hurry and join
+    your #sibling# before it gets dark. You are not equipped to spend the night around
+    here. Your favorite lighter might not be enough to light the path through the
+    forest.\r\n\r\nA torch would do the job. You know how to make a decent torch from
+    a solid piece of wood, vines, and resin. Lucky for you, there is nothing but that
+    on the ground right now. \r\n\r\nYou...\r\n\n... <color=\"red\">S</color>tart
+    walking towards the altar.\r\n... <color=\"red\">C</color>raft a torch."
+  NextPassages:
+  - {fileID: 11400000, guid: afe332961d5bafb47b22e75a51e12cbd, type: 2}

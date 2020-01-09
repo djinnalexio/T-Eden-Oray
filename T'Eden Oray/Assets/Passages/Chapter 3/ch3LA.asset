@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3LA
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "... I managed to free myself from the cables and get to the ground.
+    Unfortunately, my bag ended up being stuck out at the highest point of one of
+    the trees, definitely out of my reach.\n\n#reflect#\n\r\nI didn't want to test
+    my luck anymore by waiting next to the #really# dangerous cliff. So, I left a
+    message in the stone and waited for you here.\r\n\"\"\"\r\nYou...\r\n\r\n#ExpositionResponse2#\n"
+  NextPassages:
+  - {fileID: 11400000, guid: eaa3a544ca1b21641b0d5ee521a09e69, type: 2}
+  - {fileID: 11400000, guid: eaa3a544ca1b21641b0d5ee521a09e69, type: 2}

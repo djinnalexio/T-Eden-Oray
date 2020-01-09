@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2F
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "A message is roughly carved in the stone:\r\n#Wall Message#\n\nYou...\r\n\n...
+    <color=\"red\">G</color>o back to the site of the fall.\r\n... <color=\"red\">H</color>ead
+    towards the altar."
+  NextPassages:
+  - {fileID: 11400000, guid: 19844e36dae03984bb58dceba30e7a7f, type: 2}
+  - {fileID: 11400000, guid: 79a8d7bd92134a04b9f7258eca2c62bf, type: 2}
+  - {fileID: 11400000, guid: 37bebdf56e415774b8c9b54792be8d30, type: 2}

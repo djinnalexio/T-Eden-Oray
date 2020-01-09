@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3OE
+  m_EditorClassIdentifier: 
+  NeutralPassage: "Faisa sprints towards the snake! As the snake is about to attack
+    you, Faisa jumps forward and plunges her knife deep into the monster's eye! The
+    snake starts screeching and trashing around!\n\nYour sister and you take this
+    opportunity to run down towards the steps, but the chaos of the snake tossing
+    around in pain prevents you from taking any more steps!\r\n\nYou have nowhere
+    left to <color=\"red\">G</color>o!"
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: eb2cf6247b46aab41a84a46316d75976, type: 2}

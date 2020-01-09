@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch1D
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "Without any warning, the ground starts to shake! You run away
+    from the edge of the cliff towards the trees for safety. In your panic, you left
+    your bag and material where you were sitting! A section of the cliff collapses,
+    taking with it all of your belongings. \r\n\r\nThe earthquake stops. You fall
+    to your knees. You lost your #relation# and anything that could allow you to survive
+    in this unknown place. You ponder on what to do next.\r\n\r\nYou...\r\n\r\n...
+    <color=\"red\">W</color>alk back towards the cliff. The despair is crushing you.\r\n...
+    <color=\"red\">I</color>nspect your surroundings one more time."
+  NextPassages:
+  - {fileID: 11400000, guid: 5212e5429f418af4ab1a54549510efba, type: 2}
+  - {fileID: 11400000, guid: be8e4e48e9eaea54891e972544f6ed47, type: 2}

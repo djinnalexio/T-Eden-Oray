@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3BB
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "You walk towards the side of the pyramid. You find writings and
+    drawings on the walls!\r\n\n#inspection# They are depicting a scene of people
+    bowing down their heads to a snake. For some reason, the snake is drawn several
+    times at different places on the wall. Not just the snake, but several hands are
+    drawn around the snake as well. #glovedrawing#\n\r\nYou...\r\n\r\n... <color=\"red\">S</color>earch
+    elsewhere.\r\n... <color=\"red\">K</color>eep deciphering."
+  NextPassages:
+  - {fileID: 11400000, guid: cbf19e945cbc7fd4e863695ed930a665, type: 2}
+  - {fileID: 11400000, guid: f601e02850ec97d4abd3af3385e46f8a, type: 2}

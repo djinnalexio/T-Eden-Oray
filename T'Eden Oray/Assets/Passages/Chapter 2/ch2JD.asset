@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2JD
+  m_EditorClassIdentifier: 
+  NeutralPassage: "You light up your improvised torch with the lighter and keep moving
+    forward. You praise yourself. Your torch allows you to see pretty far ahead and
+    most of your surroundings. As you move forward through the woods, you look up
+    and take a few seconds to appreciate the soft glow of the crescent moon.\r\n\r\n**Crack**\r\n\r\nOf
+    course, things were going too smoothly for you. You hold your torch high trying
+    to dispel the shadows around. You carefully monitor the bushes moving near you.
+    You observe as the rustling sound of the leaves gets further and further. You
+    allow yourself to relax.\r\n\r\nYou <color=\"red\">W</color>alk towards the altar."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: e950cfd101451b247a193c0fe090410f, type: 2}

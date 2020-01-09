@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2GB
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "You feel a bit lighter now that you know your partner should be
+    fine. \r\nYou are now about to leave the cliff and enter the forest. You remember
+    that the ruins are in a straight line forward from the tunnel exit. Your #sibling#
+    is probably waiting for you there. The sun is starting to set.\r\nYou need to
+    cross the forest and reach the altar to find your #sibling#, but you cannot rely
+    on proper equipment today. The sun is setting. You are now standing at the entrance
+    of the woods.\r\n\r\nYou...\r\n\r\n... <color=\"red\">S</color>earch the clearing
+    again for anything useful.\r\n... <color=\"red\">H</color>ead towards the altar.\r\n...
+    <color=\"red\">R</color>ummage the rubble again."
+  NextPassages:
+  - {fileID: 11400000, guid: d3e03772789718648aae446698b8be86, type: 2}
+  - {fileID: 11400000, guid: afe332961d5bafb47b22e75a51e12cbd, type: 2}
+  - {fileID: 11400000, guid: 7d3ea1f797222b34eb551e4e6f53e4a3, type: 2}

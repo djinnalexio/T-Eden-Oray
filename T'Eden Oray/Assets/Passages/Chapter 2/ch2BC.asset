@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2BC
+  m_EditorClassIdentifier: 
+  NeutralPassage: "The floor is littered with broken branches, twigs, and battered
+    leaves. You cannot find anything that stands out due to the overall mess.\r\n\r\nYou
+    <color=\"red\">T</color>ry elsewhere."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 19844e36dae03984bb58dceba30e7a7f, type: 2}

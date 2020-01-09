@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2D
+  m_EditorClassIdentifier: 
+  NeutralPassage: "Your bag and ropes must have fallen near. You look around for a
+    while. Something shiny from under the rocks catches your attention. Good news!
+    You found your bag. Bad news, it is crushed among the rubble.\r\n\nYou get closer
+    and, but cannot grab your possession due to the boulder resting right on top of
+    it. Even if you could move it, whatever food and water you carried have definitely
+    perished. Given the way that rock is flattening your material, you highly doubt
+    any of it even survived.\n\nYou...\r\n\n... <color=\"red\">T</color>ake a step
+    back.\r\n... <color=\"red\">C</color>heck again."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 7d3ea1f797222b34eb551e4e6f53e4a3, type: 2}
+  - {fileID: 11400000, guid: 3fbbd11143b9dbf4da85a7ce1423699e, type: 2}

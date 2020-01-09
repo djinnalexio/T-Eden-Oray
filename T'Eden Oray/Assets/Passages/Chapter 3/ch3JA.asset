@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3JA
+  m_EditorClassIdentifier: 
+  NeutralPassage: "The tension in the air can be cut with a knife. You stare at the
+    scar on the snake's forehead. It is staring at the diamond in your hands.\r\n\r\nYou...\r\n\r\n...
+    <color=\"red\">T</color>hrow the gemstone away.\r\n... <color=\"red\">H</color>old
+    the gemstone in front of the snake.\r\n... <color=\"red\">D</color>ecide to attack
+    with the diamond.\r\n... <color=\"red\">F</color>lee."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: db3e6f00558d19b469e53cb0c0d17da4, type: 2}
+  - {fileID: 11400000, guid: 45409584b6211d443925e3b80b701d11, type: 2}
+  - {fileID: 11400000, guid: bbd021740f3d2334382f98f1dd48b2f6, type: 2}
+  - {fileID: 11400000, guid: a2815ffe35a8ba148845250bb3bf910f, type: 2}

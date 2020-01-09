@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch1B
+  m_EditorClassIdentifier: 
+  NeutralPassage: "After returning to your starting point, you are now facing the
+    tunnel entrance.\r\nYou look around one more time. You notice that the tunnel
+    exit is not that far below the top of the cliff and that the rock seems different,
+    probably more reliable on the upper part of the cliff.\r\n\r\nYou...\r\n\r\n...
+    <color=\"red\">E</color>nter the tunnel to go back to the camp and seek help.\r\n...
+    <color=\"red\">C</color>limb up to the top of the cliff."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 9a9fcfdc8e11d9f429dc0d3f2321bb10, type: 2}
+  - {fileID: 11400000, guid: 833feff9d888ee4459d1eb6b816ebe24, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3G
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "After facing a deadly cave, a treacherous cliff, and other natural
+    dangers, your #sibling# and you are now facing a giant cobra! You are frozen by
+    intense fear and disbelief, mostly fear/annoyance that this valley seems to have
+    thrown logic out of the window just to get you.\r\n\r\nThe snake is staring at
+    you. You doubt anything you can do to this beast will have any effect.\r\n\r\nYou
+    ...\r\n\r\n... <color=\"red\">A</color>ttack.\r\n... <color=\"red\">C</color>alm
+    down.\r\n... <color=\"red\">R</color>un away."
+  NextPassages:
+  - {fileID: 11400000, guid: 8f2f91f3d71ccb449a91ce1960c1455c, type: 2}
+  - {fileID: 11400000, guid: 2829e28d92e4d204bb9ddfc010f84cc9, type: 2}
+  - {fileID: 11400000, guid: a2815ffe35a8ba148845250bb3bf910f, type: 2}

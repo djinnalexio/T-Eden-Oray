@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch1C
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "You reach the top of the cliff without any issue this time. You
+    look below. All you can see is the green foliage of the trees. You cannot determine
+    where your #sibling# fell exactly. You look around you. All you see is green grass
+    and a few trees. You seem to have finally reached a safe spot.\r\n\r\nYou...\r\n\r\n...
+    <color=\"red\">T</color>ake a break.\r\n... <color=\"red\">I</color>nspect your
+    surroundings."
+  NextPassages:
+  - {fileID: 11400000, guid: c0b7fead205d6084dae280770d0ce721, type: 2}
+  - {fileID: 11400000, guid: c0b7fead205d6084dae280770d0ce721, type: 2}

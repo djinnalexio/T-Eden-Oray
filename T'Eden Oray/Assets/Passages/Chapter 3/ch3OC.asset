@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3OC
+  m_EditorClassIdentifier: 
+  NeutralPassage: "\"Ok. I trust you!\"\n\nFaisa throws her knife on the ground right
+    away. You both wait for the monster's reaction.\r\n\nThe snake approaches you.
+    You are frozen in fear. It moves behind you and uses its head to shove the knife
+    off the altar. The snake turns back to you and stares at you for a moment. You
+    then watch as it gets down from the altar and starts crawling back the way it
+    came from.\r\n\nYou <color=\"red\">W</color>atch the monster disappears into the
+    forest. "
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 3a6a6b70c9e176c469620dd322c1736a, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2JCA
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "Scared by the fire of your lighter, the beast escapes and leaves
+    you alone. You release the breath you did not know you were holding. The threat
+    is gone. You allow your body to relax.\r\n\r\nOnce your heartbeat has returned
+    to a stable rhythm, you start moving again. Your #sibling# is waiting for you.\r\n\r\nYou
+    <color=\"red\">W</color>alk towards the ruins."
+  NextPassages:
+  - {fileID: 11400000, guid: e950cfd101451b247a193c0fe090410f, type: 2}

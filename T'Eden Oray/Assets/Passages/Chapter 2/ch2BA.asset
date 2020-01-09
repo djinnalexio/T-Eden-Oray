@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2BA
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "You tilt your head up and look at the trees. Branches are broken
+    and you can see ropes tangled in the mess. You start thinking. If the carabiners
+    held properly, then #they# might still be in one piece!\r\n\r\nYou look closer
+    at the end of the ropes and notice that the carabiners are not hooked to anything.
+    They do not look broken either. Your #sibling# must have survived the fall by
+    landing in the foliage and then managed to unhook #self# from the ropes!\r\n\r\nRelief
+    washes over! You now know that your #relation# is alive and able to move. However,
+    you still do not know where #they# is or if #they# is safe. \r\n\r\n\"Where did
+    #they# go?\"\r\n\r\nYou <color=\"red\">T</color>ry elsewhere."
+  NextPassages:
+  - {fileID: 11400000, guid: 19844e36dae03984bb58dceba30e7a7f, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3F
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "Suddenly, the ground starts shaking again. However, this time,
+    it seems even more violent and loud than the previous one. Your #sibling# and
+    you firmly grip each other for balance.\r\n\r\nAnd then, you see it. From the
+    dark woods, a massive white snake appears. It moves in circles around the altar.
+    Its scales contrast with the ambient darkness and shine in the moonlight. After
+    the third round of the altar, you can finally see its tail exiting the bushes.
+    The snake now raises its head to look down on you. You finally have a good look
+    at the beast: long enough to coil several times around the altar, a girth making
+    it heavy enough to flatten the ground on its path, and a hood large enough to
+    block part of the abundant moonlight. The giant cobra casts its shadow over the
+    altar.\r\n\r\nYou <color=\"red\">A</color>ssess your situation."
+  NextPassages:
+  - {fileID: 11400000, guid: 200154667cb284447971f9f2ba123585, type: 2}

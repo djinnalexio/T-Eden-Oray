@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3OA
+  m_EditorClassIdentifier: 
+  NeutralPassage: "Your sister and you use your parents' breathing exercises. You
+    are going to need to think carefully about what to do next.\r\nYou manage to stay
+    calm in front of the serpent. It starts lowering its head towards you. You observe
+    its shiny eyes fixing you intensely.\r\nYou can feel the tension in the air. Faisa
+    and you are doing a great job playing statues for the snake, but you wonder how
+    long it will last.\r\n\nYou ...\r\n\n... <color=\"red\">E</color>xamine the snake.\r\n...
+    <color=\"red\">C</color>hoose to attack with the knife.\r\n... <color=\"red\">R</color>un
+    for your life."
+  VariablePassage: 
+  NextPassages:
+  - {fileID: 11400000, guid: 574285d48c728254cbc16e580f8899dd, type: 2}
+  - {fileID: 11400000, guid: 8be35392e9361c14fb7d58053159b48e, type: 2}
+  - {fileID: 11400000, guid: a2815ffe35a8ba148845250bb3bf910f, type: 2}

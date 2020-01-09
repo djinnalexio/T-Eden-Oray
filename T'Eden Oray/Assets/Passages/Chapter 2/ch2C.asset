@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch2C
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "The wreckage you were looking for is right there. You are still
+    grateful that the cliff did not collapse right above your #sibling#'s head. You
+    hope #they# is alright.\r\n\nYou...\r\n\n... <color=\"red\">G</color>o back to
+    the site of the fall.\r\n... <color=\"red\">I</color>nspect the rocks.\r\n...
+    <color=\"red\">L</color>ook for your equipment."
+  NextPassages:
+  - {fileID: 11400000, guid: 19844e36dae03984bb58dceba30e7a7f, type: 2}
+  - {fileID: 11400000, guid: ba06c80fbd61db2478fc9af8ecd910fd, type: 2}
+  - {fileID: 11400000, guid: cd70dd0fd58cf7e41b1ee922a64a3a0c, type: 2}

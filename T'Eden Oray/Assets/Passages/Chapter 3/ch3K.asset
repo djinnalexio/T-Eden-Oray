@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: ch3K
+  m_EditorClassIdentifier: 
+  NeutralPassage: 
+  VariablePassage: "The gem produces a blinding light! You tumble back and immediately
+    close your eyes shut!\r\n\r\nWhen you open your eyes, you realize that the snake
+    obtained #snakeColor# scales decorating its white skin and now wears the diamond
+    on its forehead where the scar once was. It looks at you, then turns around.\r\n\r\nIt
+    changes sizes and progressively turns into a regular-sized snake in front of you.
+    You watch as the #snakeColor# and white serpent crawls back into the woods. Your
+    #sibling# and you are frozen in shock and disbelief by what you just experienced.\r\n\r\nYou
+    feel <color=\"red\">W</color>armth crawling at your feet."
+  NextPassages:
+  - {fileID: 11400000, guid: 10e970e9097a28d4693ed3acd60da6e8, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
+  m_Name: GloveWinEnding
+  m_EditorClassIdentifier: 
+  NeutralPassage: "<align=\"center\">Manuel and you turn around. From the top of the
+    altar, you can watch the sun appear from below the woods of the lost valley. You
+    now feel like all threats are gone. Both of you are together and made it all right.
+    You finally feel peace and can now enjoy the beautiful sunrise.\r\n\r\n<size=175%><b>!!!Congratulations!!!\r</b></size>\n\n<color=black><size=80%>Secret
+    3: I wanted my game title to stand out, so I looked up languages in which it would
+    ideally sound both exotic and cool. I ended up with **Tedenoray** by translating
+    the original title in Sudanese Arabic.</size>\n</align>"
+  VariablePassage: 
+  NextPassages: []
