@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
   m_Name: Instructions
   m_EditorClassIdentifier: 
-  NeutralPassage: "<align=\"center\"><size=150%><b><u>Instructions\r</u></b></size>\r\n\nWelcome
+  NeutralPassage: 
+  VariablePassage: "<align=\"center\"><size=150%><b><u>Instructions\r</u></b></size>\r\n\nWelcome
     to the lost valley of T'Eden Oray! Follow the story of two adventurers who discover
     the wonders and hardships of this mysterious land.\r\n\r\nIncarnate one of the
     siblings and make the right choices to reach your objective!\r\n\r\nYou can decide
     on the path to take by pressing on the highlighted letters with your keyboard!\r\n\r\n(But
     let's be honest: you probably already figured that out if you made it this far...)</align>"
-  VariablePassage: 
   NextPassages: []

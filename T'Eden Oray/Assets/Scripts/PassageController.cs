@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;//Necessary to control TextMeshPro objects
-using UnityEngine.SceneManagement;
 using System.Linq;// need it for the function 'bool Array.contains()'
 
 /// <summary>
@@ -234,7 +233,7 @@ public class PassageController : MonoBehaviour
 
         else if (Input.GetKeyDown(KeyCode.M))//At any time on the game, you can press 'M' to go back to the Start Scene
         {
-            SceneManager.LoadScene("Start Screen");
+            StartScreenEntry.GoToStartScreen();
         }
         
         if (GraphicsController.EndBoxOn)//If the Ending textbox has been activated, print the current text there
