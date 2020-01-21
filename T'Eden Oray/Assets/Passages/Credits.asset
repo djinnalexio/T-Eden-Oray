@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
   m_Name: Credits
   m_EditorClassIdentifier: 
-  NeutralPassage: "<align=\"center\"><size=150%><b><u>Credits\r</u></b></size>\n\n<u><b>Game
+  NeutralPassage: 
+  VariablePassage: "<align=\"center\"><size=150%><b><u>Credits\r</u></b></size>\n\n<u><b>Game
     Design / Graphic Design / Story\r</b></u>\nPhilippe-Andre Akue\r\n\n<u>Audio\r</u>\n\n<color=blue><link>www.flashkit.com</link></color>\n\"Depressed\"
     - El_Diablo \n\"Distant Tribe\" - socreative.tv\n\"Earthsick\" - Thomas Carty\n\"Jack
     The Ripper\" - AMKstudios \n\"Sad Tune\" - Prothoss\n\"Scrape Sound 4\" - S Bainbridge\n\"Slow
     n Shiny\" - AlaShook\n\"The Wood\" - TomCat Carty\n\"Troubled Dream\" - Pipeline
     Audio Co.\n\n<u>Fonts</u>\n\n<color=blue><link>www.1001freefonts.com</link></color>\n\"AlphaWood\"
     - Chloe5972\n\"RomanWoodcut\" - Manfred Klein\n\n</align>"
-  VariablePassage: 
   NextPassages: []

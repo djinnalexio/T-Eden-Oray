@@ -15,38 +15,35 @@ public class StartScreenEntry : MonoBehaviour
     [SerializeField] Passage Credits;
     [SerializeField] Passage Secret;
 
+    Dictionary<KeyCode, Passage> gameKeys = new Dictionary<KeyCode, Passage> { };
+    
     public static Passage EntryPoint;//variable to determine which passage the game scene will start with
-    //The PassageController script will use it as the first passage
+                                     //The PassageController script will use it as the first passage
+
+    public static void GoToStartScreen() { SceneManager.LoadScene("Start Screen"); }
+    
+    private void Start()
+    {
+        gameKeys.Add(KeyCode.B, FirstPassage);
+        gameKeys.Add(KeyCode.I, Instructions);
+        gameKeys.Add(KeyCode.C, Credits);
+        gameKeys.Add(KeyCode.K, Secret);
+        gameKeys.Add(KeyCode.Q, null);
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
-        {//Press B to set the EntryPoint to the first passage of the story and then load the game scene
-            EntryPoint = FirstPassage;
-            SceneManager.LoadScene("Game Screen");
-        }
-
-        if (Input.GetKeyDown(KeyCode.I))
-        {//Press I to set the EntryPoint to the instruction page and then load the game scene
-            EntryPoint = Instructions;
-            SceneManager.LoadScene("Game Screen");
-        }
-
-        if (Input.GetKeyDown(KeyCode.C))
-        {//Press C to set the EntryPoint to the credits page and then load the game scene
-            EntryPoint = Credits;
-            SceneManager.LoadScene("Game Screen");
-        }
-
-        if (Input.GetKeyDown(KeyCode.K))
-        {//Press K to set the EntryPoint to the secret 6 page and then load the game scene
-            EntryPoint = Secret;
-            SceneManager.LoadScene("Game Screen");
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {//Press Q to stop the game
-            Application.Quit();
+        foreach (KeyValuePair<KeyCode,Passage> i in gameKeys)
+        {
+            if (Input.GetKeyDown(i.Key))
+            {
+                if (i.Value != null)
+                {
+                    EntryPoint = i.Value;
+                    SceneManager.LoadScene("Game Screen");
+                }
+                else Application.Quit();
+            }
         }
     }
 }

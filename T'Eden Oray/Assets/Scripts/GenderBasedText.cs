@@ -146,5 +146,4 @@ I did end getting the diamond!..........but it cost me my favorite pair of glove
         }
         return VariableText;//This function creates a new text, different from the original base text
     }
-
 }
