@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
   m_Name: CharSelect
   m_EditorClassIdentifier: 
-  NeutralPassage: "<align=\"center><size=140%>\nPick your adventure!\n\nTales of the
-    <b>Older <color=\"red\">B</color>rother\r</b>\n---\r---------------------\nTales
+  VariablePassage: "<align=\"center><size=140%>\nPick your adventure!\n\nTales of
+    the <b>Older <color=\"red\">B</color>rother\r</b>\n---\r---------------------\nTales
     of the <b>Little <color=\"red\">S</color>ister</b>\n\n</b></size></align>"
-  VariablePassage: 
   NextPassages:
   - {fileID: 11400000, guid: dfe75db5f25ebba4b92d59aac3931c54, type: 2}

@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93c8a5a256e1b9479c069d94b78b110, type: 3}
   m_Name: Intro
   m_EditorClassIdentifier: 
-  NeutralPassage: "<align=\"center\">Reaching the end of a dark and perilous cave,
+  VariablePassage: "<align=\"center\">Reaching the end of a dark and perilous cave,
     the two adventurers finally accomplish their goal.\r\n\r\nAfter following the
     light at the end of the tunnel, they discover a scenery made of beautiful green
     trees, luxurious grass, flowers of all colors decorating the ground, and vines
     growing over the ruins of what seems to have been an altar.\r\n\nThey have done
     it: They have found the lost valley of <b><i><color=\"red\">T</color>'Eden Oray</i>!</b></align>"
-  VariablePassage: 
   NextPassages:
   - {fileID: 11400000, guid: 834c7b45abb94704fb27649dee5cbc55, type: 2}
